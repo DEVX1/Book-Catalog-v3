@@ -63,6 +63,8 @@ document.getElementById('book-form').addEventListener('submit', function(e) {
   if(title === '' || author === '' || isbn === '') {
     // error alert
     ui.showAlert('Please complete all fields', 'error');
+  } else if(isbn.length !== 11) {
+    ui.showAlert('ISBN must be formatted XXXXXXXXX-X', 'error');
   } else {
     // Add book to list
     ui.addBookToList(book);
