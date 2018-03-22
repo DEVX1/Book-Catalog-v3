@@ -9,7 +9,7 @@ h1 {
 }
 
 .success {
-  background-color: green;
+  background-color: rgb(59, 163, 59);
 }
 
 .error {
