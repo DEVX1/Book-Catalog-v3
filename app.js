@@ -92,7 +92,7 @@ document.getElementById('book-list').addEventListener('click', function(e) {
   // Call deleteBook function
   ui.deleteBook(e.target);
   // show an alert
-  ui.showAlert('Book deleted from list!', 'success');
+  ui.showAlert('Book deleted from list!', 'deleted');
   // prevent the default behavior
   e.preventDefault();
 });
