@@ -2,6 +2,16 @@ h1 {
   color: rgb(129, 207, 129);
 }
 
+a {
+  text-decoration: none;
+  color: red;
+  font-size: 110%;
+}
+
+a:hover {
+  color: rebeccapurple;
+}
+
 .success, .error {
   color: #fff;
   padding: 5px;
